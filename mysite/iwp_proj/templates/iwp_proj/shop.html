@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% load static %}
+
+<html>
+<head>
+    
+</head>
+<body >
+    {% block body %}
+    <h1 style="text-align: center;font-size: 100px;">Indic Medicines</h1>
+    <div class="container">
+    {% if name %}
+    <div class="card-columns">
+    {%for question in name %}
+    
+    <div class="card" style="width: 18rem;">
+        <img src="{{question.image.url}}" class="card-img-top" alt="IMAGE" height="300px" width="300px ">
+        <div class="card-body">
+          <p class="card-text">{{question.name}}</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    
+    {%endfor%}
+</div>
+    
+    {% else %}
+    <p>No polls are available.</p>
+    {% endif %}
+</div>
+    {% endblock body%}
+</body>
+
+</html>

@@ -1,28 +1,15 @@
 {% extends 'base.html' %}
 {% load static %}
+{% block title %}
+Home
+      {% endblock title %}
+      
 
-<html>
-<head>
-    
-</head>
-<body >
-    {% block body %}
-    <h1 style="text-align: center;font-size: 100px;">Indic Medicines</h1>
-    <div class="container">
-    {% if name %}
-    {%for question in name %}
-    <p>{{question.name}}</p>
-    <p>{{question.available}}</p>
-    <img src="{{question.image.url}}" alt="Image" width="300px" height="400px">
-    
-    {%endfor%}
 
-    
-    {% else %}
-    <p>No polls are available.</p>
-    {% endif %}
-</div>
-    {% endblock body%}
-</body>
 
-</html>
+
+      
+  {% block body %}
+  
+  <h1 style="text-align: center;font-size: 100px;">Indic Medicines</h1>
+  {% endblock body%}

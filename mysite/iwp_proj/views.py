@@ -10,3 +10,10 @@ def index(request):
         'name': name,
     }
     return HttpResponse(template.render(context, request))
+def shop(request):
+    name=items.objects.all()
+    template=loader.get_template('iwp_proj/shop.html')
+    context = {
+        'name': name,
+    }
+    return HttpResponse(template.render(context, request))
