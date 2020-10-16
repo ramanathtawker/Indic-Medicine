@@ -1,13 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
-
-<html>
-<head>
-    
-</head>
-<body >
     {% block body %}
-    <h1 style="text-align: center;font-size: 100px;">Indic Medicines</h1>
+    <br><br><br>
     <div class="container">
     {% if name %}
     <div class="card-columns">
@@ -28,7 +22,5 @@
     <p>No polls are available.</p>
     {% endif %}
 </div>
-    {% endblock body%}
-</body>
 
-</html>
+    {% endblock body%}

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+.navbar{
+    overflow: hidden;
+}
+.navbar h1{
+    font-family: 'Lato';
+}
+.navbar a{
+    text-decoration: none;
+    color: #663300;
+    opacity: 0.6;
+    transition: 0.25s;
+    font-size: larger;
+    font-family: 'Lato';
+}
+
+.navbar a:hover{
+    text-decoration: none;
+    color:  #336600;
+    opacity: 1;
+    border-bottom: 1px solid black;
+    transition: 0.25s;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: left;
+    margin: 0px;
+    padding:0px;
+    list-style-type:none;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: left;
+    position: fixed;
+    left: 10px;
+    top: 20px;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: left;
+    padding: 10px;
+}
+
+.main-title{
+    color:  #336600;
+    font-weight: 500px;
+
+    top: 18px;
+    left: 593px;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-list-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: left;
+    position: fixed;
+    right: 15px;
+    top: 20px;
+}
+
+.nav-item-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-align: left;
+    padding: 0px;
+    margin: 10px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+
+
+
+.aboutus h2{
+    font-family: 'Lato';
+    font-weight: 800;
+    justify-content: center;
+    color: #663300 ;
+}
+
+.carousel-item a{
+    font-family: 'Lato';
+    font-weight: 800;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.carousel-item a{
+    font-family: 'Lato';
+    font-weight: 400;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.carousel-item a:hover{
+    font-family: 'Lato';
+    font-weight: 800;
+    font-size: xx-large;
+    justify-content: center;
+    color: #336600;
+    cursor: pointer;
+    padding: 0px;
+    text-decoration: underline 1px #336600;
+    transition: 0.5s;
+}
+
+.about-us-body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size:large;
+    color: #336600;
+}
+
+.about-us-body ul{
+    justify-content: center;
+    color: #663300;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
